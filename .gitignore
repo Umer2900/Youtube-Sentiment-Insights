@@ -42,3 +42,5 @@ Thumbs.db
 
 Project Overview/
 data/
+/lgbm_model.pkl
+/tfidf_vectorizer.pkl
