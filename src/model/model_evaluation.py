@@ -109,8 +109,10 @@ def log_confusion_matrix(cm, dataset_name):
     mlflow.log_artifact(cm_file_path)
     plt.close()
 
+
 def save_model_info(run_id: str, model_path: str, file_path: str) -> None:
     """Save the model run ID and path to a JSON file."""
+    """This function will help me to get the recently trained model"""
     try:
         # Create a dictionary with the info you want to save
         model_info = {
