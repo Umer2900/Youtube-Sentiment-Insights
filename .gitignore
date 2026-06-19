@@ -1,1 +1,44 @@
+# Virtual Environment
+venv/
+/venv/
+.venv/
+env/
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+
+# Logs
+*.log
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# DVC Cache
+.dvc/cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
 Project Overview/
+data/
