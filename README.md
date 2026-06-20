@@ -86,7 +86,6 @@ The core idea is to train a sentiment classifier on a labeled **Reddit sentiment
   - Neutral
   - Negative
 
----
 
 ### 🧹 NLP Preprocessing Pipeline
 - Missing value handling
@@ -97,7 +96,6 @@ The core idea is to train a sentiment classifier on a labeled **Reddit sentiment
 - Lemmatization
 - Text normalization
 
----
 
 ### 🧠 Traditional ML Model Training
 - TF-IDF vectorization
@@ -105,7 +103,6 @@ The core idea is to train a sentiment classifier on a labeled **Reddit sentiment
 - LightGBM-based multi-class sentiment classifier
 - Configurable hyperparameters using `params.yaml`
 
----
 
 ### 📊 Experiment Tracking with MLflow
 - Log experiments and compare runs
@@ -113,7 +110,6 @@ The core idea is to train a sentiment classifier on a labeled **Reddit sentiment
 - Save artifacts remotely on AWS S3
 - Register the final trained model in **MLflow Model Registry**
 
----
 
 ### 🔁 Reproducible DVC Pipeline
 - Version-controlled ML pipeline
@@ -124,20 +120,17 @@ The core idea is to train a sentiment classifier on a labeled **Reddit sentiment
   - Model evaluation
 - Easy reproducibility using DVC commands
 
----
 
 ### ☁️ AWS-based MLOps Setup
 - MLflow tracking server hosted on **EC2**
 - Artifacts stored in **S3**
 - AWS CLI used to connect local development environment with AWS resources
 
----
 
 ### 🧩 Chrome Extension Frontend
 - Chrome extension frontend for interacting with the sentiment analysis system
 - Designed to work with YouTube and show sentiment insights to the user
 
----
 
 ### 🐳 Deployment Ready
 - Dockerized application setup
@@ -216,6 +209,7 @@ Youtube-Sentiment-Insights/
 ├── requirements.txt
 ├── setup.py
 └── tfidf_vectorizer.pkl
+```
 
 ---
 
